@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Barman 2.0</title>
+	<title>Barman 2.0</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+	<style> 
+	body{
+		background: url(http://www.pearlfinders.com/~/media/Alcoholic%20drinks%20-%20bar.ashx);
+		background-size: cover;
+		background-position: center;
+		color: black;
+		margin-top: 150px;
+		margin-right: 100px;
+		margin-left: 100px;
+		text-align: center;
+	}
+	h1 { font-size: 50px;
+		color: white;
+		font-weight: bolder;
+	}
+	input [type='submit'] {
+		background: red;
+		color: white;
+	}
+	</style>
 </head>
 <body>
   <div class='container'>
+  	<h1>Tell us a little about yourself?</h1>
     <form method="post" action='/'>
       <input type='text' name='user_name' placeholder='name'>
       <input type='text' name='user_age' placeholder='age'>
